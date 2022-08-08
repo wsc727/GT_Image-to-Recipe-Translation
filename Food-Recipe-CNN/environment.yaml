@@ -1,0 +1,24 @@
+name: food-recipe-cnn
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - numpy
+  - tqdm
+  - torchfile
+  - simplejson
+  - python-lmdb
+  - pytorch=1.9.0
+  - torchvision
+  - cudatoolkit=11.1
+  - jupyterlab
+  - ipywidgets
+  - matplotlib
+  - scikit-learn
+  - nmslib
+  - nltk
+  - pandas
+  - gensim
+  - opencv
